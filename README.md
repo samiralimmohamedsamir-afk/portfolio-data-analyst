@@ -1,23 +1,23 @@
-# 📊 Tableau de Bord Ventes Retail — Excel
+ 📊 Tableau de Bord Ventes Retail — Excel
 
-## 🎯 Contexte du projet
+ 🎯 Contexte du projet
 Analyse des performances de vente sur 6 mois pour une boutique de vêtements multimarcques.
 Projet réalisé dans le cadre de ma reconversion en Data Analyst.
 
-## 🔍 Problématique
+ 🔍 Problématique
 Le directeur veut comprendre :
 - Quels produits se vendent le mieux ?
 - Quels vendeurs sont les plus performants ?
 - Quelles périodes sont les plus creuses ?
 - Quelles régions génèrent le plus de CA ?
 
-## 🛠️ Compétences utilisées
+ 🛠️ Compétences utilisées
 - Nettoyage de données (doublons, valeurs invalides)
 - Tableaux Croisés Dynamiques (TCD)
 - Formules Excel (SOMME.SI, NB.SI, MOYENNE, INDEX/EQUIV)
 - Dashboard visuel avec graphiques interactifs
 
-## 📈 Insights clés
+ 📈 Insights clés
 - CA Total sur 6 mois : 37 991 €
 - Meilleur vendeur : Thomas Petit
 - Catégorie la plus performante : Chaussures
@@ -25,5 +25,26 @@ Le directeur veut comprendre :
 - Top produit : Bottes cuir (6 832 €)
 - Région surprise : Lille devance Paris
 
-## 📁 Fichier
+ 📁 Fichier
 Le fichier Excel complet est disponible dans ce repository.
+---
+
+ 📊 Projet 2 — Analyse des Dépenses Entreprise (SQL)
+
+ 🎯 Contexte
+Analyse des dépenses d'une entreprise sur 6 mois pour identifier les départements 
+qui dépensent trop et les fournisseurs les plus coûteux.
+
+ 🛠️ Compétences utilisées
+- SQL : SELECT, WHERE, GROUP BY, ORDER BY
+- Fonctions : SUM, COUNT, AVG, MAX, ROUND
+- Outil : DB Browser for SQLite
+
+ 📈 Insights clés
+- IT est le département le plus dépensier : 73 500 €
+- 4 dépenses en attente de validation urgente
+- Top fournisseur le plus coûteux : EventCo
+- Dépense moyenne IT : 6 125 € par transaction
+
+ 📁 Fichier
+requetes_depenses.sql disponible dans ce repository
