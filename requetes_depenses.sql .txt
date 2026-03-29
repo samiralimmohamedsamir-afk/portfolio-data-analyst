@@ -1,0 +1,45 @@
+-- =============================================
+-- PROJET SQL : Analyse des Dépenses Entreprise
+-- Auteur : Data Analyst en reconversion
+-- Période : Janvier - Juin 2024
+-- =============================================
+
+-- REQUÊTE 1 : Voir toutes les données
+SELECT * FROM depenses;
+
+-- REQUÊTE 2 : Sélectionner des colonnes spécifiques
+SELECT date, departement, montant, statut 
+FROM depenses;
+
+-- REQUÊTE 3 : Dépenses supérieures à 5000€
+SELECT date, departement, fournisseur, montant
+FROM depenses
+WHERE montant > 5000;
+
+-- REQUÊTE 4 : Alertes dépenses en attente
+SELECT date, departement, fournisseur, montant, statut
+FROM depenses
+WHERE montant > 2000
+AND statut = 'En attente';
+
+-- REQUÊTE 5 : Total des dépenses par département
+SELECT departement, SUM(montant) AS total_depenses, COUNT(*) AS nb_depenses
+FROM depenses
+GROUP BY departement;
+
+-- REQUÊTE 6 : Top fournisseurs les plus coûteux
+SELECT fournisseur, SUM(montant) AS total
+FROM depenses
+GROUP BY fournisseur
+ORDER BY total DESC;
+
+-- REQUÊTE 7 : Tableau de bord final
+SELECT departement,
+    SUM(montant) AS total_depenses,
+    COUNT(*) AS nb_depenses,
+    ROUND(AVG(montant), 2) AS depense_moyenne,
+    MAX(montant) AS depense_max
+FROM depenses
+WHERE statut = 'Validé'
+GROUP BY departement
+ORDER BY total_depenses DESC;
