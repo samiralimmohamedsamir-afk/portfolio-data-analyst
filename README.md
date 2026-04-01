@@ -48,3 +48,26 @@ qui dépensent trop et les fournisseurs les plus coûteux.
 
  📁 Fichier
 requetes_depenses.sql disponible dans ce repository
+
+---
+
+ 🗂️ Projet 3 — Gestion de Projet Agile ERP (Trello)
+
+ 🎯 Contexte
+Simulation du déploiement d'un ERP dans une PME de 50 personnes.
+Organisation du projet avec la méthode Agile en 4 Sprints.
+
+ 🛠️ Compétences utilisées
+- Méthode Agile (Scrum/Kanban)
+- Gestion de backlog et sprints
+- Priorisation des tâches
+- Outil : Trello
+
+ 📋 Sprints planifiés
+- Sprint 1 — Analyse des besoins
+- Sprint 2 — Choix de la solution ERP
+- Sprint 3 — Déploiement et paramétrage
+- Sprint 4 — Formation et Go Live
+
+### 🔗 Voir le tableau Trello
+[Accéder au tableau Kanban](https://trello.com/invite/b/69cd7c5f37ed4a6139570ac2/ATTI2c0cce5492cf59239cfdcb649abd87643421531E/deploiement-erp-pme-techretail)
